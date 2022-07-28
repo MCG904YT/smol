@@ -1,0 +1,5 @@
+	for i,v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetChildren()) do
+		if v:IsA("NumberValue") then
+			v:Destroy()
+		end
+	end
